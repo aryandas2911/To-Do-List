@@ -43,7 +43,7 @@
     align-items: center;
     margin-bottom: 20px;
     padding-left: 20px;
-    background-color: #edeef0;
+    background-color: #d6d6d8;
     border-radius: 30px;
 }
 
@@ -68,7 +68,38 @@ button{
     border-radius: 30px;
 }
 
-/*List Box Task Container*/
-#list-container{
+/*List Box Tasks List*/
+ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px 8px 10px 45px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
 
+/*List Box Tasks Check Button*/
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-image: url(images/unchecked.png);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    top: 7px;
+    left: 1px;
+}
+
+
+/*List Box Tasks On Checked*/
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url(images/checked.png);
 }
