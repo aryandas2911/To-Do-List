@@ -30,11 +30,8 @@ This project was created to practice frontend development and understand the com
 
 ## 🚀 How to Run Locally
 1. Clone the repository
-   
-   git clone https://github.com/aryandas2911/To-Do-List.git
-   
-2. Navigate to the project folder
-   
+   ```bash
+   git clone https://github.com/aryandas2911/To-Do-List.git   
    cd todo-list
 
 3. Open index.html in your browser
