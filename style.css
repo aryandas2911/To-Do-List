@@ -103,3 +103,23 @@ ul li.checked{
 ul li.checked::before{
     background-image: url(images/checked.png);
 }
+
+/*List Box Tasks Remove Button*/
+ul li span{
+    position: absolute;
+    right: 0px;
+    top: 3px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    text-align: center;
+    line-height: 40px;
+}
+
+/*List Box Tasks Remove Button Hover Animation*/
+ul li span:hover{
+    color: red;
+    background: #edeef0;
+    border-radius: 50%;
+}
